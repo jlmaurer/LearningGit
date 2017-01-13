@@ -1,0 +1,15 @@
+Q. - What happens when you initialize a repository? 
+Why do you need to do it?
+
+A. - initializing a repository will allow me to make 
+commits of the files in the repository. 
+
+Q. - How is the staging area different from the 
+working directory and the repository? What value
+do you think it offers?
+ 
+A. - The staging area allows one to group similar things
+that one might want to commit together, while excluding 
+other items that I may want to commit separately or 
+not at all. 
+
