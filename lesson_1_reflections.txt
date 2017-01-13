@@ -1,0 +1,64 @@
+Comparing two files using diff (FC in windows) made it 
+much easier to spot differences between them because it 
+isolates all the changes line by line. Only shows a 
+line or two around the line change. Note that using diff
+ -u in linux makes for slightly more readable content. 
+ 
+Having access to the entire history of a file could make 
+me a more efficient programmer by allowing me to undo changes
+that I accidentally make, or perhaps I want to go back to 
+the way I had done something previously. This flexibility 
+seems great, it's just like undo in Office. Or perhaps I had 
+taken a function out that I want to reintroduce, I can just
+go back and get it. 
+ 
+ Mercurial is similar to Git
+ Commits are a "save" to git
+ 
+ Q. What do you think are the pros and cons of manually 
+ choosing when to create a commit, like you do in Git, 
+ vs having versions automatically saved, like Google Docs does?
+ 
+ Pros - Ultimate flexibility in terms of when to commit, 
+ it is easy to make sure that each commit has a single 
+ logical change, and you don't clutter up your space with 
+ too many versions. 
+ 
+ Cons - have to remember to manually commit, if forget then 
+ bad and may have to commit several things at once. 
+ 
+ Q. - Why do you think some version control systems, like Git,
+ allow saving multiple files in one commit, while others, 
+ like Google Docs, treat each file separately?
+ 
+ A. - Google docs is designed for files that are treated 
+ individually, like letters, forms, etc. Git is often used with
+ projects that involve multiple files, so it makes sense to update
+ those together. In this case, perhaps a function change requires 
+ updating two ancillary functions, etc. 
+ 
+Q. - How can you use the commands git log and git diff to view the 
+history of files?
+
+A. - git log shows the complete history of commits that have been made,
+along with commit id, comments, and the author and date of the changes.
+git diff allows you to compare two different commits and identify 
+which and how many lines have been changed. 
+
+Q. - How might using version control make you more confident to make 
+changes that could break something?
+
+A. - Because I know I can always get back to a previous commit, it's ok
+if a new change introduces a bug. Testing will reveal the bug, and I can 
+compare the two versions to find and correct the bug. Plus, if anything
+really bad happens, I can always completely restore the earlier version
+that worked. 
+
+Q. - Now that you have your workspace set up, what do you want to try 
+using Git for?
+
+A. - I would like to set up git repositories for my second project files, 
+my geostats project, and some of the moment-bounding stuff. I would like 
+to use these for collaboration with others, and for using on multiple 
+machines. 
+
