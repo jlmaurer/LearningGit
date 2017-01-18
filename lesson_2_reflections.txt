@@ -9,7 +9,56 @@ working directory and the repository? What value
 do you think it offers?
  
 A. - The staging area allows one to group similar things
-that one might want to commit together, while excluding 
+that one might want to commit together,
 other items that I may want to commit separately or 
 not at all. 
+
+Q. - How can you use the staging area to make sure you
+ have one commit per logical change?
+
+A. - I can always check the contents of the staging area,
+and compare the contents to those in my working directory
+and the most recent commit to make sure I know exactly 
+what I am committing. 
+
+Q. - What are some situations when branches would be 
+helpful in keeping your history organized? How would 
+branches help?
+
+A. - Branches would be very helpful when adding major 
+new features, for example, that I may not want to be 
+available at first on the master branch. I could have
+an experimental branch where I can experiment, while
+having the master branch still available for others to 
+use, for example. Also if I want to maintain certain 
+dependencies, for example one code that will work with
+Matlab 2016b and one that will with 2011. There could 
+be many possible uses. 
+
+Q. - How do the diagrams help you visualize the branch 
+structure?
+
+A. - The diagrams can be helpful for figuring out 
+which branch I'm on, and the relationship between the 
+different branches. 
+
+Q. - What is the result of merging two branches together? 
+Why do we represent it in the diagram the way we do?
+
+A. - Merging two branches combines all the changes that
+were made in both branches so that a new branch is 
+formed that incorporates all the changes from both. 
+Two different branches might be two different functions
+or bugs, and merging gives the master branch the 
+functionality of both parents. 
+
+Q. - What are the pros and cons of Git’s automatic 
+merging vs. always doing merges manually?
+
+A. - auto merging saves time when simple changes need to 
+be merged. If it is easy to determine whether there is
+a conflict, git does it automatically, which is nice. 
+If there is a question, git lets you determine what needs 
+to be done. 
+
 
