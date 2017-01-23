@@ -19,3 +19,11 @@ A. - A branch is a linear set of commits in a git repository. A clone is a copy 
 a branch on my local machine, including all of the commits in that branch. A fork
 is a clone of someone else's repository on github to my own github account. 
 
+Q. - What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+A. - This way, changes that I commit locally can be compared to the state of the 
+remote immediately, even without Internet access. I can keep track of the 
+differences between the state on the remote, which could be changing due to my
+collaborators, and my own local copy. 
+
